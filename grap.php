@@ -17,10 +17,10 @@ $fp=fopen('decl/index.md','w');
 foreach($matches[1] as $key=>$v){
     fwrite($fp,"- [".trim($matches[2][$key])."](https://cdn.rawgit.com/samm-git/nazk-data/master/decl/".$v."/decl.html)\n");
     if(!is_dir('decl/'.$v)) mkdir('decl/'.$v);
-    file_put_contents("decl/".$v."/decl.json",
-	file_get_contents('https://public-api.nazk.gov.ua/declarations-public/api/declaration/'.$v));
-    file_put_contents("decl/".$v."/decl.html",
-	file_get_contents('https://public.nazk.gov.ua/declaration/'.$v));
+    $content=file_get_contents('https://public-api.nazk.gov.ua/declarations-public/api/declaration/'.$v);
+    if($content)  file_put_contents("decl/".$v."/decl.json", $content);
+    $content=file_get_contents('https://public.nazk.gov.ua/declaration/'.$v);
+    if($content) file_put_contents("decl/".$v."/decl.html", $content);
 
 }
 fclose($fp);
