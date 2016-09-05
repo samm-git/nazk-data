@@ -1,3 +1,5 @@
+- [Кулініч Наталія Михайлівна](https://cdn.rawgit.com/samm-git/nazk-data/master/decl/122c864a-42e5-4826-a490-e26ca181506e/decl.html)
+- [Мормиль Тетяна Олексіївна](https://cdn.rawgit.com/samm-git/nazk-data/master/decl/3b0a6d72-8e48-4cf0-b22d-226159c86bf9/decl.html)
 - [Пошивак Юрій Петрович](https://cdn.rawgit.com/samm-git/nazk-data/master/decl/0fbde858-01cd-441f-bba8-15fdb92fdc65/decl.html)
 - [Пакулець Ігор Ігорович](https://cdn.rawgit.com/samm-git/nazk-data/master/decl/51857b5c-9ca7-4f3a-91e8-aad6251cbbc6/decl.html)
 - [Пакулець Ігор Ігорович](https://cdn.rawgit.com/samm-git/nazk-data/master/decl/b45d58fc-08bd-4798-b317-ff239abbb927/decl.html)
