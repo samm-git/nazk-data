@@ -1,2 +1,2 @@
 # nazk-data
-Declarations from the nazk.gov.ua
+Declarations from the public.nazk.gov.ua. Updated daily. JSON and HTML data fetched.
